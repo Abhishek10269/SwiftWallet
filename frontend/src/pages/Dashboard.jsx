@@ -50,7 +50,7 @@ export const Dashboard = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img className="h-8 w-8" src="/images/logo.avif" alt="Logo" />
+              <span className='font-semibold text-2xl p-3 text-purple-700'>SwiftWallet</span>
             </div>
             <div className="flex items-center">
               <span className="mr-4 text-gray-700">Hello</span>
