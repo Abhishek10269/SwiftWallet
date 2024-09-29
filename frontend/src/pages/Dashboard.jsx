@@ -40,7 +40,7 @@ export const Dashboard = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("authToken");
-    navigate("/login");
+    navigate("/signin");
   };
 
   return (
