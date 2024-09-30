@@ -37,7 +37,7 @@ export const Signin = () => {
       } else if (err.request) {
         setError("No response from server. Please check your internet connection.");
       } else {
-        setError("An error occurred. Please try again.");
+        setError("An error occurred. Please try again later.");
       }
     } finally {
       setIsLoading(false);
